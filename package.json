@@ -1,0 +1,43 @@
+{
+  "name": "chuanmei",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "compressorjs": "^1.0.7",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.5",
+    "echarts": "^4.8.0",
+    "gdt-jsapi": "^1.9.20",
+    "js-md5": "^0.7.3",
+    "json-bigint": "^1.0.0",
+    "vant": "^2.12.23",
+    "vue": "^2.6.11",
+    "vue-qrcode-reader": "^3.1.0",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "webrtc-adapter": "^8.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.21",
+    "postcss-pxtorem": "^5.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

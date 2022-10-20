@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <!-- <script src='https://wpk-gate.zjzwfw.gov.cn/static/wpk-jssdk.1.0.2/wpkReporter.js' crossorigin='true'></script> -->
+  <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+  <!-- <script>
+    try {
+      const config = {
+        bid: 'pinghushuzisifa_zzdpro',
+        signkey: '1234567890abcdef',
+        gateway: 'https://wpk-gate.zjzwfw.gov.cn'
+      };
+      const wpk = new wpkReporter(config);
+      wpk.installAll();
+      window._wpk = wpk;
+      // console.log(wpk)
+    } catch (err) {
+      console.error('WpkReporter init fail', err);
+    }
+    (function (w, d, s, q, i) {
+      w[q] = w[q] || [];
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s);
+      j.async = true;
+      j.id = 'beacon-aplus';
+      j.src = 'https://alidt.alicdn.com/alilog/mlog/aplus_cloud.js';
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+
+    aplus_queue.push({
+      action: 'aplus.setMetaInfo',
+      arguments: ['aplus-rhost-v', 'alog.zjzwfw.gov.cn']
+    });
+    aplus_queue.push({
+      action: 'aplus.setMetaInfo',
+      arguments: ['aplus-rhost-g', 'alog.zjzwfw.gov.cn']
+    });
+
+    var u = navigator.userAgent
+    var isAndroid = u.indexOf('Android') > -1
+    var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)
+
+    aplus_queue.push({
+      action: 'aplus.setMetaInfo',
+      arguments: ['appId', isAndroid ? '28302650' : isIOS ? '28328447' : '47130293']
+    });
+  </script> -->
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+</body>
+
+</html>
